@@ -1,0 +1,54 @@
+body {
+    background-image: url("img/bg.png");
+    background-size: 100%;
+}
+
+.painel {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+input {
+    width: 240px;
+    margin: 15px auto;
+
+    background-color: #776F6F;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button {
+    width: 240px;
+    margin: 15px auto;
+    color: white;
+    background-color: #4E6BD2;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: white;
+}
+.pesquisa {
+    border: 1px solid #81FF03;
+    padding: 15px;
+    border-radius: 50px;
+    padding-right: 180px;
+    background: url("img/search.png") no-repeat right;
+    background-size: 12%;
+    background-position: 310px;
+    margin-right: 20px;
+}
+
+
+    position: relative;
+    top: 6px;
+}
